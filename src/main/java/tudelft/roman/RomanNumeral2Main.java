@@ -6,6 +6,8 @@ public class RomanNumeral2Main {
 
         // doesn't check for input or invalid numbers
 
+        rn2.convert_str("iii");  // 3
+        System.out.println(rn2.getNumber());
         rn2.convert_str("ix");  // 9
         System.out.println(rn2.getNumber());
         rn2.convert_str("xiv");  // 14
